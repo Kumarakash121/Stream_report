@@ -133,7 +133,7 @@ def start_stream():
             attempt += 1
             if attempt < RETRY_ATTEMPTS:
                 print(f"Retrying in {RETRY_DELAY} seconds... ({attempt}/{RETRY_ATTEMPTS})")
-                time.sleep(RETRY_DELAY)  # Wait before retrying
+                time.sleep(RETRY_DELAY)  
             else:
                 print("Max retries reached. Exiting.")
                 return
