@@ -18,7 +18,7 @@ Ensure you have the following installed:
 - Python 3.6 or later
 - `requests` library (installable via pip)
 
-## Setup
+## Setup Instructions
 
 ### 1. Clone the Repository
 
